@@ -20,10 +20,7 @@ body{
    background:var(--bg-color);
    color:var(--text-color);
 }
-/* section{
-   min-height:100vh;
-   padding: 10rem 9% 2rem;   
-} */
+
 .navbar{
     height: 50px;
     display: flex;
@@ -355,20 +352,7 @@ margin-bottom: 100px;
    text-align:center;
 }
 header.bx bx-menu{
-   display: none;
-}
-@media only screen and (max-width:600px){
-
-html{
-   font-size: 55%;
-}
-}
-@media (max-width:991px){
-   .header{
-       padding: 2rem 3%;
-   }
-}
-header.bx bx-menu{
+   display: none;                      
    display: block;
    font-size: 25px;
 }
@@ -392,12 +376,7 @@ section{
 .footer{
    padding: 2rem 3%;
 }
-/*@media(max-width:768px){
-   #menu-icon{
-       display: block;
-   }
-}
-.navbar{ 
+/*navbar{ 
    position: absolute;
    top:100%;
    left: 0;
